@@ -1,0 +1,74 @@
+body {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+header {
+  font-family: "Inconsolata";
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: -0.08em;
+  line-height: 25px;
+  text-align: left;
+  margin: 1rem;
+  padding-left: 0.5rem;
+  color: #333333;
+}
+
+.image-container {
+  margin: 2rem;
+}
+
+.image {
+  width: 540px;
+  height: 450px;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  padding: 2rem;
+  margin: 0.5rem;
+  text-align: left;
+}
+
+h1 {
+  font-family: "space mono";
+  font-weight: 700;
+  font-size: 4rem;
+  color: #333333;
+  line-height: 95px;
+  letter-spacing: -0.035em;
+}
+
+.text {
+  font-family: "space mono";
+  font-size: 1.5rem;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+  max-width: 380px;
+  color: #4f4f4f;
+}
+
+.button {
+  font-family: "space mono";
+  background: #333333;
+  padding: 1rem;
+  margin-top: 1rem;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+  background: #4f4f4f;
+}
