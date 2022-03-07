@@ -16,12 +16,13 @@ header {
 }
 
 .image-container {
-  margin: 2rem;
+  margin: 1.5rem;
 }
 
 .image {
-  width: 540px;
-  height: 450px;
+  width: 100%;
+  /*width: 540px;
+  height: 450px;*/
 }
 
 #container {
@@ -31,7 +32,7 @@ header {
 }
 
 .content {
-  padding: 2rem;
+  padding: 1.5rem;
   margin: 0.5rem;
   text-align: left;
 }
@@ -72,3 +73,37 @@ a:hover {
   color: #ffffff;
   background: #4f4f4f;
 }
+
+@media screen and (device-width: 768px) {
+  #container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90vw;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (device-width: 768px) {
+  body {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-device-width: 480px){
+  #container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 40vh;
+  }
+}
+
+@media screen and (max-device-width: 480px) {
+  body {
+    font-size: 1rem;
+  }
+}
+
